@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // This is the intent to launch the info activity
 
-        Intent infoIntent = new Intent(this , InfoActivity.class);
-        startActivity(infoIntent);
+        Intent intent = new Intent(this , InfoActivity.class);
+        startActivity(intent);
 
         return super.onOptionsItemSelected(item);
     }
